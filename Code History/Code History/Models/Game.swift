@@ -15,7 +15,7 @@ struct Game {
     private(set) var guesses = [Question: Int]()
     private(set) var isOver = false
     
-    // MARK: - Private variables
+    // randomize question order:
     
     private let questions = Question.allQuestions.shuffled()
     

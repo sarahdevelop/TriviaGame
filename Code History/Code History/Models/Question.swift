@@ -13,84 +13,84 @@ struct Question: Hashable {
     let correctAnswerIndex: Int
     
     static var allQuestions = [
-        Question(questionText: "Who invented the World Wide Web?",
+        Question(questionText: "Which planet is closest to the sun?",
                  possibleAnswers: [
-                    "Steve Jobs",
-                    "Linus Torvalds",
-                    "Bill Gates",
-                    "Tim Berners-Lee"
+                    "Saturn",
+                    "Jupiter",
+                    "Earth",
+                    "Mercury"
                  ],
                  correctAnswerIndex: 3),
-        Question(questionText: "What was the first object oriented programming language?",
+        Question(questionText: "Which planet has a day which lasts eight months?",
                  possibleAnswers: [
-                    "Simula",
-                    "Python",
-                    "Swift",
-                    "C"
+                    "Venus",
+                    "Mars",
+                    "Mercury",
+                    "Neptune"
                  ],
                  correctAnswerIndex: 0),
-        Question(questionText: "What was iOS originally called?",
+        Question(questionText: "What name was given to the invisible material once thought to occupy all space?",
                  possibleAnswers: [
-                    "Swift OS",
-                    "Apple OS",
-                    "iPhone OS",
-                    "iPod OS"
+                    "Unoccupied Space",
+                    "Black Hole",
+                    "Ether",
+                    "Galaxy"
                  ],
                  correctAnswerIndex: 2),
-        Question(questionText: "Computers use the digits zero and one to store data.  What is this system called?",
+        Question(questionText: "Where is the Palomar telescope?",
                  possibleAnswers: [
-                    "Binary",
-                    "Ternary",
-                    "Decimal",
-                    "Fraction"
+                    "California",
+                    "Texas",
+                    "Florida",
+                    "Washington"
                  ],
                  correctAnswerIndex: 0),
-        Question(questionText: "In what year was Swift 1.0 released?",
+        Question(questionText: "What would you find if you travelled to the centre of the solar system?",
                  possibleAnswers: [
-                    "2010",
-                    "2013",
-                    "2014",
-                    "2020"
+                    "Earth",
+                    "Magma",
+                    "The Sun",
+                    "Ether"
                  ],
                  correctAnswerIndex: 2),
-        Question(questionText: "Who was the first programmer?",
+        Question(questionText: "What are minor planets or planetoids?",
                  possibleAnswers: [
-                    "Alan Turing",
-                    "Ada Lovelace",
-                    "Guido van Rossum",
-                    "Dennis Ritchie"
+                    "Micro Biosphere",
+                    "Asteroids",
+                    "Unknown Planets",
+                    "Moon"
                  ],
                  correctAnswerIndex: 1),
-        Question(questionText: "What was the first computer bug?",
+        Question(questionText: "How many Earths could fit inside the sun?",
                  possibleAnswers: [
-                    "Ant",
-                    "Beetle",
-                    "Moth",
-                    "Fly"
+                    "One Hundred",
+                    "Six",
+                    "One Million",
+                    "Fifty Nine"
                  ],
                  correctAnswerIndex: 2),
-        Question(questionText: "In what year was the SwiftUI framework introduced?",
+        Question(questionText: "What color is Mars’ sunset?",
                  possibleAnswers: [
-                    "2015",
-                    "2016",
-                    "2018",
-                    "2019"
+                    "Green",
+                    "Orange",
+                    "Violett",
+                    "Blue"
                  ],
                  correctAnswerIndex: 3),
-        Question(questionText: "What language did iOS developers use before Swift?",
+        Question(questionText: "What is the unit of measurement used to describe the expansion of the universe?",
                  possibleAnswers: [
-                    "Objective-C",
-                    "Python",
-                    "Typescript",
-                    "Java"
+                    "The Hubble Constant",
+                    "Light years",
+                    "Cosmic Distance",
+                    "Parsec"
                  ],
                  correctAnswerIndex: 0),
-        Question(questionText: "What version of iOS introduced dark mode?",
+        Question(questionText: "How old is the universe?",
                  possibleAnswers: [
-                    "iOS 10",
-                    "iOS 11",
-                    "iOS 12",
-                    "iOS 13"
+                    "~ 1 Trillion Years",
+                    "~ 1000 Years",
+                    "~ 1.4 Million Years",
+                    "~ 13.8 billion Years"
                  ],
                  correctAnswerIndex: 3),
     ]

@@ -12,15 +12,24 @@ struct BottomTextView: View {
     
     var body: some View {
         HStack {
+    Spacer()
+        HStack (alignment: .center){
             Spacer()
             Text(str)
                 .font(.body)
                 .bold()
                 .padding()
             Spacer()
-        }.background(GameColor.accent)
+        }
+        .frame(maxWidth: 300, alignment: .leading)
+        .background(GameColor.accent)
+        .foregroundColor(GameColor.main)
+        .cornerRadius(20)
+    Spacer()
+    }
     }
 }
+
 
 struct BottomTextView_Previews: PreviewProvider {
     static var previews: some View {

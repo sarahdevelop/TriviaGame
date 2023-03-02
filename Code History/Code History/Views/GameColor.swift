@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct GameColor {
-    static let main = Color(red: 0/255, green: 29/255, blue: 68/255)
-    static let accent = Color(red: 100/255, green: 91/255, blue: 40/255)
+    static let main = Color(red: 0/255, green: 0/255, blue: 35/255)
+    static let accent = Color(red: 255/255, green: 232/255, blue: 101/255)
     static let correctGuess = Color.green
     static let incorrectGuess = Color.red
 }
